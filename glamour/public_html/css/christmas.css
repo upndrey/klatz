@@ -106,6 +106,13 @@
     z-index: 1;
 }
 
+.block1-image {
+    max-width: 617px;
+}
+.block1-image>img {
+    max-width: 617px;
+}
+
 @media (max-width: 1149px) {
     .header_balls {
         opacity: .3;
