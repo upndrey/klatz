@@ -169,6 +169,17 @@ nav a:hover {
 	color: #030303;
 	background-color: #FCEACF;
 }
+
+.block1 .yellow-btn {
+	color: #030303;
+	background-color: #FCEACF;
+}
+.block1 .yellow-btn:hover, .block1 .white-btn:hover {
+	border: 1px solid #EDC38D;
+	color: #EDC38D;
+	background-color: transparent;
+}
+
 .white-btn {
 	border: 1px solid #FAFAFA;
 	color: #FAFAFA;

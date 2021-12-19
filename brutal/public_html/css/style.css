@@ -144,6 +144,20 @@ nav a:hover {
 	border-bottom-color: #F1A44D;
 	border-left-color: #F1A44D;
 }
+
+.block1 .block1-btn {
+	color: #030303;
+	background-color: #F1A44D;
+	border-top-color: #F1A44D;
+	border-right-color: #F1A44D;
+	border-bottom-color: #F1A44D;
+	border-left-color: #F1A44D;
+}
+.block1 .block1-btn:hover {
+	color: #F1A44D;
+	border: 1px solid #F1A44D;
+	background: transparent;
+}
 .cnt {
 	display: flex;
 	flex-direction: row;

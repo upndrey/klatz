@@ -131,6 +131,14 @@
     .white-image { 
         margin-bottom: 0;
     }
+    
+    .header_christmas {
+        height: 750px;
+    }
+
+    .header_christmas:before {
+        height: 500px;
+    }
 }
 
 
@@ -145,5 +153,14 @@
     
     .white-image { 
         margin-bottom: 0;
+    }
+
+    
+    .header_christmas {
+        height: 1025px;
+    }
+
+    .header_christmas:before {
+        height: 775px;
     }
 }
