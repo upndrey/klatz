@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^example.ru
+RewriteRule (.*) http://www.example.ru/$1 [R=301,L]

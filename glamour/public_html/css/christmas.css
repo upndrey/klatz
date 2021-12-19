@@ -1,0 +1,149 @@
+
+/* header */
+.header_christmas {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+}
+
+.header_christmas:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 650px;
+    background: url("../img/christmas/header_bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .1;
+}
+
+.header_branch {
+    z-index: 1;
+    position: absolute;
+    background: url("../img/christmas/header_branch.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 346px;
+    height: 232px;
+    opacity: .8;
+}
+
+.header_balls {
+    z-index: 1;
+    position: absolute;
+    top: -170px;
+    left: 170px;
+    background: url("../img/christmas/header_balls.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 448px;
+    height: 448px;
+    opacity: .95;
+}
+
+.header_branch1 {
+    left: -127px;
+    top: -53px;
+}
+
+.header_branch2 {
+    right: -127px;
+    top: -53px;
+    opacity: 0.8;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.header_branch3 {
+    left: -100px;
+    bottom: 250px;
+    opacity: 0.8;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.header_branch4 {
+    right: -100px;
+    bottom: 250px;
+    opacity: 0.8;
+    transform: rotate(-180deg);
+}
+
+.white-image {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 200px;
+    background: none;
+    z-index: 2;
+}
+
+.white-image>img {
+    position: relative;
+    bottom: 350px;
+}
+
+.white-title {
+    z-index: 3;
+    position: relative;
+}
+
+.white-image:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1095px;
+    height: 1032px;
+    max-width: 100%;
+    left: 0; 
+    right: 0;
+    top: -250px;
+    background-image: url("../img/christmas/header_circle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    opacity: 0.75;
+    z-index: 1;
+}
+
+@media (max-width: 1149px) {
+    .header_balls {
+        opacity: .3;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .white-image>img {
+        bottom: 300px;
+    }
+}
+
+@media (max-width: 959px) {
+    .white-image:before {
+        top: -300px;
+    }
+
+    .white-image>img {
+        bottom: 250px;
+    }
+    
+    .white-image { 
+        margin-bottom: 0;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .white-image:before {
+        top: -225px;
+    }
+
+    .white-image>img {
+        bottom: 00px;
+    }
+    
+    .white-image { 
+        margin-bottom: 0;
+    }
+}
