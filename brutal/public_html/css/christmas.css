@@ -261,4 +261,12 @@
     .header_balls2 {
         display: none;
     }
+
+    .block1-title {
+        margin-top: 40px;
+    }
+
+    .block1-title>br {
+        display: none;
+    }
 }

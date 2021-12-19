@@ -157,10 +157,18 @@
 
     
     .header_christmas {
-        height: 1025px;
+        height: 1000px;
     }
 
     .header_christmas:before {
-        height: 775px;
+        height: 750px;
+    }
+
+    .block1-title {
+        margin-top: 40px;
+    }
+
+    .block1-title>br {
+        display: none;
     }
 }

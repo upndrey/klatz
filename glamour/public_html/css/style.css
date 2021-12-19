@@ -203,6 +203,7 @@ nav a:hover {
     text-align: center;
 }
 .block1-image {
+    z-index: 2;
 	position: absolute;
 	right: 65px;
 	bottom: -50px;
