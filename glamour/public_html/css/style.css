@@ -30,6 +30,7 @@ div {
 }
 .main {
 	overflow: hidden;
+    position: relative;
 }
 .container {
 	position: relative;
